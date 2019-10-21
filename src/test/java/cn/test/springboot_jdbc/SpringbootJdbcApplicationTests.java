@@ -32,7 +32,7 @@ public class SpringbootJdbcApplicationTests {
 //        System.out.println(count);
         List<Student> studentList = jdbcTemplate.query("select * from student", new BeanPropertyRowMapper<Student>(Student.class));
         System.out.println(studentList);
-        System.out.println("a test for git");
+        System.out.println("a second test for git");
 
     }
 
